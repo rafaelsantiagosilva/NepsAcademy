@@ -1,0 +1,7 @@
+Matryoshka
+- Receber quantidade de bonecas
+- Receber bonecas
+- Criar bonecas em ordem
+- Verificar bonecas fora de ordem com bonecas em ordem
+- Contar quantas bonecas não batem com as bonecas em ordem e armazenalas
+- Imprimir a quantidade de bonecas que não batem e elas em si

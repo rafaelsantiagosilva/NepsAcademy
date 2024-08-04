@@ -12,12 +12,8 @@ int main(void)
      // Lendo quadrado
      int quadrado[N][N];
      for (i = 0; i < N; i++)
-     {
           for (j = 0; j < N; j++)
-          {
                scanf("%d", &quadrado[i][j]);
-          }
-     }
 
      // Processamento
      int somaLinha[N], somaColuna[N], somaDiagonalEsq = 0, somaDiagonalDir = 0;
@@ -33,9 +29,7 @@ int main(void)
      for (i = 0; i < N; i++)
      {
           for (j = 0; j < N; j++)
-          {
                somaColuna[i] += quadrado[j][i];
-          }
 
           if (i > 0)
           {
@@ -50,9 +44,7 @@ int main(void)
      for (i = 0; i < N; i++)
      {
           for (j = 0; j < N; j++)
-          {
                somaLinha[i] += quadrado[i][j];
-          }
 
           if (i > 0)
           {
@@ -65,53 +57,33 @@ int main(void)
      }
 
      for (i = 0; i < N; i++)
-     {
           somaDiagonalEsq += quadrado[i][i];
-     }
 
      for (i = 0; i < N; i++)
-     {
           for (j = 0; j < N; j++)
-          {
                if ((j + i) == N - 1)
-               {
                     somaDiagonalDir += quadrado[i][j];
-               }
-          }
-     }
 
      if (somaDiagonalDir != somaDiagonalEsq)
-     {
           soma = false;
-     }
 
      for (i = 0; i < N; i++)
      {
           if (somaLinha[i] != somaColuna[i])
-          {
                soma = false;
-          }
 
           if (somaLinha[i] != somaDiagonalDir || somaLinha[i] != somaDiagonalEsq)
-          {
                soma = false;
-          }
 
           if (somaColuna[i] != somaDiagonalDir || somaColuna[i] != somaDiagonalEsq)
-          {
                soma = false;
-          }
      }
 
      if (soma)
-     {
           printf("%d", somaDiagonalDir);
-     }
 
      else
-     {
           printf("%d", -1);
-     }
 
      return 0;
 }
