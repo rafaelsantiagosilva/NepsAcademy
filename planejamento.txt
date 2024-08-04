@@ -5,3 +5,20 @@ Matryoshka
 - Verificar bonecas fora de ordem com bonecas em ordem
 - Contar quantas bonecas não batem com as bonecas em ordem e armazenalas
 - Imprimir a quantidade de bonecas que não batem e elas em si
+
+Fita Colorida
+- Receber número de quadrados e quadrados na Fita
+- Contar para a esquerda até chegar em um 0
+- Contar para a direita até chegar em um 0
+- Verificar qual é menor
+- Se esse menor for maior que 9, receber 9
+- Trocar a posição desse -1 por este menor
+- Imprimir fita recolorida
+
+Huaauhahhuahau
+- Receber a risada
+- Filtrar para ter somente as vogais
+- Fazer um for para fazer a risada somente com as vogais ao contrário
+- Comparar essa ao contrário e a normal:
+  - Se forem iguais imprime S
+  - Se forem diferentes imprime N
