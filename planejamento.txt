@@ -22,3 +22,7 @@ Huaauhahhuahau
 - Comparar essa ao contrário e a normal:
   - Se forem iguais imprime S
   - Se forem diferentes imprime N
+
+Soma de Casas
+- Entrar com N, N casas e K
+- Fazer uma subtração de K com o primeiro número e verificar se o resultado está no vetor
